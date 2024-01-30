@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="./images/js.svg" type="image/x-icon" />
+    <title>Primera Pagina</title>
+  </head>
+  <body>
+    <header>
+      <div class="divHeader">
+        <h1>Carlos <span>Molina</span></h1>
+        <p>Full Stack Developer</p>
+        <a href="#"><img src="./images/github.svg" alt="github" /></a>
+      </div>
+    </header>
+    <nav>
+      <div class="navLogo">
+        <img src="./images/hen.jpg" alt="logo" />
+      </div>
+      <div class="navMenu">
+        <ul>
+          <li>
+            <a href="#me">Sobre Mi</a>
+          </li>
+          <li><a href="#tecno">Tecnologias</a></li>
+          <li><a href="#hobb">Hobbies</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <article>
+        <div class="aboutMe">
+          <h2 id="me">Sobre <span>Mi</span></h2>
+          <p>
+            Soy ingeniero electronico de profesion, soy venezolano viviendo en
+            la Argentina, desde que me gradue he trabajado en industrias como la
+            petrolera y telecomunicaciones... Tengo todas las ganas y esperanzas
+            puestas en Henry para cambiar mi vida..
+          </p>
+        </div>
+      </article>
+      <article class="article2">
+        <h2 id="tecno">Tecnologias</h2>
+        <div class="article2Div1">
+          <h3>Tecnologias que hasta el momento se</h3>
+          <ul>
+            <li><img src="./images/html.svg" alt="html" /></li>
+            <li><img src="./images/css.svg" alt="css" /></li>
+            <li><img src="./images/js.svg" alt="js" /></li>
+          </ul>
+        </div>
+        <!-- <div class="Mis Actividades Favoritas">
+          <h3>Tegnologias que me gustaria aprender</h2>
+          <ul>
+            <li><img src="./images/node.png" alt="node" /></li>
+            <li><img src="./images/next.svg" alt="Nextjs" /></li>
+            <li><img src="./images/nest.jpg" alt="Nest" /></li>
+            <li><img src="./images/react.svg" alt="react" /></li>
+            <li><img src="./images/dotnet.svg" alt=".net" /></li>
+            <li><img src="./images/angular.svg" alt="angular" /></li>
+          </ul>
+        </div> -->
+      </article>
+      <article class="article3">
+        <form id="hobb" action="#">
+          <legend>Mis Actividades Favoritas</legend>
+          <label for="title"></label>
+          <input
+            type="text"
+            name="title"
+            id="Nombre"
+            placeholder="Titulo"
+            required
+          />
+          <label for="description"></label>
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="Describe la Actividad"
+            required
+          />
+          <label for="image"></label>
+          <input
+            type="text"
+            name="image"
+            id="image"
+            placeholder="Imagen de Actividad"
+            required
+          />
+          <button id="btnEnviar">Enviar</button>
+        </form>
+      </article>
+      <article class="article4">
+        <div>
+          <h2>No Ha Ingresado Ninguna Actividad</h2>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div>
+        <a href="#"><img src="./images/linkedin.svg" alt="linkedin" /></a>
+        <a href="#"><img src="./images/github.svg" alt="github" /></a>
+      </div>
+      <div>
+        <p>
+          Elaborado por CarlosMolina &copy;<br />
+          <span>Dreams Come True...</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
