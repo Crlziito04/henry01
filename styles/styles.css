@@ -190,8 +190,15 @@ h3 {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
-
-input::placeholder {
+textarea {
+  resize: none;
+}
+textarea:focus,
+input:focus {
+  color: blue;
+}
+input::placeholder,
+textarea::placeholder {
   text-align: center;
   font-weight: bold;
 }
