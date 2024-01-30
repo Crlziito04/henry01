@@ -29,14 +29,17 @@ main {
   width: 2rem;
   height: 2rem;
 }
-
+.navLogo {
+  margin-left: 0.1rem;
+}
 nav {
   margin: auto;
   width: 50%;
   margin-top: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem;
+  gap: 1.5em;
 }
 form {
   margin: auto;
